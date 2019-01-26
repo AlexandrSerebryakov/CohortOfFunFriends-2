@@ -6,5 +6,6 @@ package cff.main;
 public class Runner {
     public static void main(String[] args) {
         System.out.println("Good luck!!!");
+        // TODO: 27.01.2019 Think about enum-classes vs enum-fields
     }
 }
