@@ -15,8 +15,14 @@
             <version>1.7.21</version>
         </dependency>
         <dependency>
-            <groupId>joda.Money</groupId>
-            <artifactId>joda.Money</artifactId>
+            <groupId>org.joda</groupId>
+            <artifactId>joda-money</artifactId>
+            <version>0.10.0</version>
+        </dependency>
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.9.6</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
