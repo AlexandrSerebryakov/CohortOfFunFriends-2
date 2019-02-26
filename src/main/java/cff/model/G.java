@@ -21,4 +21,56 @@ public class G {
     private enum tSize {VERY_BIG, BIG, MIDDLE, SMALL, MICRO};
     private enum tType {D, T, S};
 
+
+    public static String getgHhZero() {
+        return G_HH_ZERO;
+    }
+
+    public boolean isGSee() {
+        return isGSee;
+    }
+
+    public void setGSee(boolean GSee) {
+        isGSee = GSee;
+    }
+
+    public boolean isC() {
+        return isC;
+    }
+
+    public void setC(boolean c) {
+        isC = c;
+    }
+
+    public boolean isgHHExist() {
+        return gHHExist;
+    }
+
+    public void setgHHExist(boolean gHHExist) {
+        this.gHHExist = gHHExist;
+    }
+
+    public String getgHHZero() {
+        return gHHZero;
+    }
+
+    public void setgHHZero(String gHHZero) {
+        this.gHHZero = gHHZero;
+    }
+
+    public boolean ispAsEl() {
+        return pAsEl;
+    }
+
+    public void setpAsEl(boolean pAsEl) {
+        this.pAsEl = pAsEl;
+    }
+
+    public boolean ispTypeKzJO() {
+        return pTypeKzJO;
+    }
+
+    public void setpTypeKzJO(boolean pTypeKzJO) {
+        this.pTypeKzJO = pTypeKzJO;
+    }
 }
